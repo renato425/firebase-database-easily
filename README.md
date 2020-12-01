@@ -9,12 +9,12 @@ const database = new FDE.connection("API-KEY", "AUTH-DOMAIN", "DATABASE-URL", "P
 
 # Método SET
 ```js
-database.set(`Users/${id}/Test`, information: "yes", information2: "not")
+database.set(`Users/${id}/Test`, {information: "yes", information2: "not"})
 ```
 
 # Método UPDATE
 ```js
-database.update(`Users/${id}/Test`, information: "omg!", FDE: "cool")
+database.update(`Users/${id}/Test`, {information: "omg!", FDE: "cool"})
 ```
 
 # Método GET (once)
